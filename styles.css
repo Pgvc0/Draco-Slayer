@@ -1,0 +1,16 @@
+main{
+    font-family: "MedievalSharp", cursive;
+}
+.passo{
+    text-align: center;
+    padding-top: 30%;
+    display: none;
+}
+.passo.ativo{
+    display: block;
+}
+.cap1{
+    font-size: 70px;
+    padding-top: 10%;
+}
+  

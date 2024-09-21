@@ -9,8 +9,12 @@ main{
 .passo.ativo{
     display: block;
 }
-.cap1{
+.cap{
     font-size: 70px;
     padding-top: 10%;
 }
-  
+button{
+    background: rgb(133, 62, 0);
+    color: black;
+    font-family: "MedievalSharp", cursive;
+}

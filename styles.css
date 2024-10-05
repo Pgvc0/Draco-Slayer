@@ -1,6 +1,9 @@
 main{
     font-family: "MedievalSharp", cursive;
 }
+body{
+    background: rgb(255, 91, 21);
+}
 .passo{
     text-align: center;
     padding-top: 30%;
@@ -15,6 +18,38 @@ main{
 }
 button{
     background: rgb(133, 62, 0);
-    color: black;
+    color: wheat;
     font-family: "MedievalSharp", cursive;
+}
+.tela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+}
+.titulo{
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-family: "MedievalSharp", cursive;
+    color: rgb(255, 182, 35);
+}
+.botao{
+    padding: 12px 15px;
+    background-color: rgb(133, 62, 0);
+    width: 70px;
+    border: 1px solid #555;
+    border-radius: 20px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+.botao:hover{
+    background: none;
+    transition: 0.5s;
+}
+.mnu{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
